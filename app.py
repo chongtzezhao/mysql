@@ -27,7 +27,6 @@ def index():
         name = userDetails['name']
         email = userDetails['email']
         cur = mysql.connection.cursor()
-        cur.execute('CREATE DATABASE IF NOT EXISTS flaskapp;')
         cur.execute('CREATE TABLE IF NOT EXISTS users (name VARCHAR(40), email VARCHAR(40))')
         cur.execute("INSERT INTO users(name, email) VALUES(%s, %s)", (name, email))
         mysql.connection.commit()

@@ -4,6 +4,8 @@ Install Cygwin https://www.youtube.com/watch?v=QonIPpKodCw
 
 Install & start MYSQL server https://www.youtube.com/watch?v=w5TsNZRWBNE
 
+Alternatively, tl;dr https://www.youtube.com/watch?v=51F_frStZCQ
+
 ```
 Tze Zhao@DESKTOP-EB90EDS /cygdrive/c/Users/tzcho/cygwin-installer
 $ mysqld_safe &
